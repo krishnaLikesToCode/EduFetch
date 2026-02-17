@@ -1,4 +1,4 @@
-# EducakeFetcher
+# EducakeFetcher (experimental)
 
 A simple python program that fetches the answers to an educake quiz at a given URL.
 
