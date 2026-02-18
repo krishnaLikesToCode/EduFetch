@@ -2,6 +2,19 @@ from curl_cffi import requests
 
 loginSession=requests.Session(impersonate="chrome100")
 
+def getUserCredentials():
+    try:
+        userCredFile=open("educakeCredentials.txt","r")
+        hello=userCredFile.read().split("\n")
+        print(hello)
+    
+    except:
+        print("No credentials file was found. Creating one now...\n\n")
+        getUsername=int(input("Enter your educake username\t"))
+        getPassword=int(input("\n\nEnter your Educake password"))
+        userCredFile=open("educakeCredentials","w")
+        #working on it
+
 username="YOUR_USERNAME"
 password="YOUR_PASSWORD"
 
