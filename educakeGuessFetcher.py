@@ -1,9 +1,9 @@
 from curl_cffi import requests
 
-loginSession=requests.Session(impersonate="chrome120")
+loginSession=requests.Session(impersonate="chrome100")
 
-username="krishnab0009"
-password="bedwarrior10"
+username="YOUR_USERNAME"
+password="YOUR_PASSWORD"
 
 headers = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:146.0) Gecko/20100101 Firefox/146.0",
