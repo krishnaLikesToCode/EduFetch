@@ -29,10 +29,11 @@ confirmButton=tk.CTkButton(urlEntryAndButton,width=75,corner_radius=30,border_co
 
 searchQuestionLabel=tk.CTkLabel(searchQuestionEntryAndButton,width=300,text="No questions found. Enter a valid URL above first.")
 searchQuestionEntry=tk.CTkEntry(searchQuestionEntryAndButton,width=50,height=15,corner_radius=30,border_color="purple",border_width=1)
-searchAnswerLabel=tk.CTkLabel(root,width=365,corner_radius=30,border_color="purple",border_width=2,text="",fg_color="gray20")
+searchAnswerLabelBorder=tk.CTkFrame(root,width=369,corner_radius=30,border_color="purple",border_width=2,fg_color="purple")
+searchAnswerLabel=tk.CTkLabel(searchAnswerLabelBorder,width=365,corner_radius=30,text="",fg_color="gray20")
 
-scrollableArea=tk.CTkScrollableFrame(root,fg_color="gray20",width=365,height=350,scrollbar_button_hover_color="purple")
-
+scrollableAreaBorder=tk.CTkFrame(root,width=369,height=354,border_color="purple",border_width=2,fg_color="purple")
+scrollableArea=tk.CTkScrollableFrame(scrollableAreaBorder,fg_color="gray20",width=365,height=350,scrollbar_button_hover_color="purple")
 
 # Password and username prompt window
 
@@ -70,12 +71,14 @@ urlEntryAndButton.pack()
 inputEntry.pack(side="left",padx=3)
 confirmButton.pack(side="right",padx=3)
 blankSpace.pack()
-scrollableArea.pack(anchor="s")
+scrollableArea.pack(padx=2,pady=2)
+scrollableAreaBorder.pack(anchor="s")
 blankSpace1.pack()
 searchQuestionEntryAndButton.pack()
 searchQuestionLabel.pack(side="left",padx=2)
 searchQuestionEntry.pack(side="right",padx=2)
-searchAnswerLabel.pack(pady=5)
+searchAnswerLabel.pack(padx=2,pady=2)
+searchAnswerLabelBorder.pack(pady=5)
 
 
 
