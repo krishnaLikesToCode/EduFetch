@@ -11,14 +11,14 @@ uPassFromGUI,uNameFromGUI,urlFromGUI="","",""
 # Root window
 root=tk.CTk()
 root.geometry("400x620")
-root.title("Educake Fetcher v1.0.0")
+root.title("EduFetch v1.0.1")
 
 urlEntered=tk.BooleanVar(value=False)
 
 urlEntryAndButton=tk.CTkFrame(root,width=375,fg_color="transparent")
 searchQuestionEntryAndButton=tk.CTkFrame(root,width=375,fg_color="transparent")
 
-nameLabel=tk.CTkLabel(root,width=350,height=1,corner_radius=30,text="Educake Fetcher",font=("default",23,"bold"))
+nameLabel=tk.CTkLabel(root,width=350,height=1,corner_radius=30,text="Welcome to EduFetch",font=("default",23,"bold"))
 
 writeLabel=tk.CTkLabel(root,width=350,height=40,text="Enter the Educake quiz URL...")
 blankSpace=tk.CTkLabel(root,height=10,text="\n")
