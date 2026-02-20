@@ -1,5 +1,5 @@
-# :tada: EduFetch
-***(Application version coming soon!)***
+# :tada: EduFetch V1.0.1
+***(Application version comming soon!)***
 
 ### ℹ️ A Python-based program that fetches and displays Educake answers 
 
@@ -57,8 +57,9 @@ This repository contains 2 main versions of the code:
 
 ### ***Link to profile: https://github.com/krishnaLikesToCode***
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-## **Keywords for SEO**
+### **Keywords for SEO**
 #### ***educake answer bot, educake hacks, educake hacker, educake answer fetcher, educake bot, educake hacker, educake answers, educake guesser, educake solver, educake quiz solver, quiz hacks, educake answer app, desktop application, GUI, educake***
 
 
