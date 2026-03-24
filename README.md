@@ -1,5 +1,5 @@
-# :tada: EduFetch V1.0.1
-***(GUI and Application released!)***
+# EduFetch V1.0.1- 🪦 Discontinued
+***(This program has been non-functional as of early March 2026, and is kept for viewing/educational purposes)***
 
 ### ℹ️ A Python-based GUI that fetches and displays Educake answers
 
@@ -13,7 +13,6 @@
 - Applications for:
 
   * Windows
-  * MacOS
   * Linux *(Linux executable file provided, so you might want to convert it to a .desktop)*
 <br>
 
@@ -63,14 +62,6 @@
 ***5.) Run file via your file manager or just paste the path to the file into the terminal and hit enter :tada:***
 
 <br>
-
-#### <ins>On MacOS</ins>
-
-***2.) Navigate to "EduFetch-main.zip" in Finder, and double click to extract it***
-
-~~***3.) Open the subsequent "EduFetch-main" folder -> "EduFetch-main" -> "MacOS_Application" -> "EduFetch.app"***~~
-
-~~***4.) Double click file and accept/dismiss any warnings that come up :tada:***~~ :soon: **Coming soon...**
 
 <br>
 
