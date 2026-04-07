@@ -5,7 +5,7 @@
 
 | ***Windows*** | ***Linux*** |
 | :---: | :---: |
-| ![Alt Text 1](.Images/ScreenshotOnWindows.png) | ![Alt Text 2](.Images/ScreenshotOnLinux.png) |
+| ![Alt Text 1](Images/ScreenshotOnWindows.png) | ![Alt Text 2](Images/ScreenshotOnLinux.png) |
 
 ***This repository contains 2 main versions of the code:***
 <br>
