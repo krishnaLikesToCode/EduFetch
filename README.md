@@ -1,5 +1,5 @@
 # EduFetch V1.0.1- 🪦 Discontinued
-***(This program has been non-functional as of early March 2026, and is kept for viewing/educational purposes)***
+***(This program has been non-functional as of early March 2026, and is kept for viewing/educational purposes. I do have intentions to remake it, but doing so will need to fundamentally change how answers are fetched)***
 
 ### ℹ️ A Python-based GUI that fetches and displays Educake answers
 
